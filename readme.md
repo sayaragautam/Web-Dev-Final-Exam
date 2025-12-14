@@ -1,0 +1,9 @@
+This project is a simple webpage created using HTML, CSS, and JavaScript. The main goal of the project is to recreate a given design and allow the user to switch between two layouts using a button. The page is also responsive, so it works well on both desktop and mobile screens.
+The logic of this project is based on switching between two designs using a single button. First, I placed all the webpage content inside one main container. This container is important because it allows me to change the design by applying different CSS styles to it.
+When the user clicks the button, a JavaScript function is called. Inside this function, I used a method that checks whether a specific CSS class is already applied to the container or not. If the class is not present, it gets added and the second design is shown. If the class is already present, it gets removed and the page goes back to the original design.
+The button works like a switch. Each click changes the state of the page from one design to another without refreshing the page. The actual visual changes are handled by CSS, while JavaScript is only used to control when the change should happen.
+This logic is simple and efficient because it avoids using multiple buttons or reloading the page. It separates styling and functionality properly by using CSS for design changes and JavaScript only for interaction.
+By using a button click and basic JavaScript logic, this project successfully switches between two layouts. This approach keeps the code clean, easy to understand, and suitable for beginner-level web development projects.
+
+Prompt to AI:
+I am building a simple webpage using HTML, CSS, and JavaScript for my web development exam. I want to add a button that changes the layout when clicked, but I do not understand how to switch between two designs using JavaScript. I don’t know what toggle means or how it works, so please explain the concept in a simple way.

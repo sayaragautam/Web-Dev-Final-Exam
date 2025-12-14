@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+  }
+  body {
+    background: #ffffff;
+  }
+  .container {
+    background: #eaf4e0;
+    min-height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+  }
+  .small-title {
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .main-title {
+    font-size: 64px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .overlap {
+    position: relative;
+    z-index: 2;
+  }
+  /* IMAGE */
+  .image-box {
+    width: 260px;
+    margin: auto;
+    margin-top: -80px; /* OVERLAP DESIGN */
+    transition: all 0.4s ease;
+  }
+  .image-box img {
+    width: 100%;
+    height: auto;
+  }
+  /* TEXT */
+  .subtitle {
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  /* BUTTON */
+  button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+  /* SECOND DESIGN */
+  .container.alt .image-box {
+    margin-top: 20px; /* IMAGE BELOW TEXT */
+  }
+  .container.alt .main-title {
+    margin-bottom: 20px;
+  }
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .main-title {
+      font-size: 42px;
+    }
+    .image-box {
+      width: 200px;
+    }
+  }
